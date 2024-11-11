@@ -14,7 +14,7 @@
 
 ## Quick Explanation
 
-* Python files that create, test, pysparks database.
+* Python files that [create](src/main_workspace/py_spark.py) and [test](src/tests/test_sql.py) a pysparks for data manipulation.
 
 ## Set up instructions using VS code + Docker: 
 ### Docker
