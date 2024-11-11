@@ -1,25 +1,20 @@
 # IDS-SQL-Python 
 
-[![Docker Image CI Main](https://github.com/Nathan-Bush46/IDS706-SQL-python/actions/workflows/main.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-SQL-python/actions/workflows/main.yml)
+[![Docker Image CI Main](https://github.com/Nathan-Bush46/IDS706-PySparks/actions/workflows/main.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-PySparks/actions/workflows/main.yml)
 
-[![Docker Image CI Lint](https://github.com/Nathan-Bush46/IDS706-SQL-python/actions/workflows/lint.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-SQL-python/actions/workflows/lint.yml)
+[![Docker Image CI Lint](https://github.com/Nathan-Bush46/IDS706-PySparks/actions/workflows/lint.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-PySparks/actions/workflows/lint.yml)
 
-[![Docker Image CI Test](https://github.com/Nathan-Bush46/IDS706-SQL-python/actions/workflows/test.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-SQL-python/actions/workflows/test.yml)
+[![Docker Image CI Test](https://github.com/Nathan-Bush46/IDS706-PySparks/actions/workflows/test.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-PySparks/actions/workflows/test.yml)
 
-[![Docker Image CI Format](https://github.com/Nathan-Bush46/IDS706-SQL-python/actions/workflows/format.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-SQL-python/actions/workflows/format.yml)
+[![Docker Image CI Format](https://github.com/Nathan-Bush46/IDS706-PySparks/actions/workflows/format.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-PySparks/actions/workflows/format.yml)
 
-[![Docker Image CI Install](https://github.com/Nathan-Bush46/IDS706-SQL-python/actions/workflows/install.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-SQL-python/actions/workflows/install.yml)
+[![Docker Image CI Install](https://github.com/Nathan-Bush46/IDS706-PySparks/actions/workflows/install.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-PySparks/actions/workflows/install.yml)
+
 
 
 ## Quick Explanation
 
-* 3 Python files that create, test, and log a Python database.
-    * [`create database`](src/main_workspace/sql_main.py): Creates a basic database using SQLite3 and Python
-        * Performs basic CRUD operations
-        * Shows examples of different SQL queries
-    * [`log database`](src/main_workspace/sql_logging_example.py): Creates a basic database logger using SQLite3 and Python
-    * [`Test database`](src/tests/test_sql.py): Creates a basic database tester using SQLite3 and Python. This tests that the operations on a database behave as expected. It creates a separate DB in memory for testing.
-* Note: The python script will not delete the old .dp files between runs. Therefore running the python files multiple times will result in duplicate entries in dbs.
+* Python files that create, test, pysparks database.
 
 ## Set up instructions using VS code + Docker: 
 ### Docker
